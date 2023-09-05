@@ -7,10 +7,10 @@ const Navbar = () => {
         <div>
           <button
             type="button"
-            class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center rounded-lg"
+            className="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center rounded-lg"
           >
             <GiShoppingCart className="text-[50px] w-8 h-8" />
-            <span class="inline-flex items-center justify-center w-8 h-8 ml-2 text-xl font-semibold text-blue-800 bg-blue-200 rounded-full">
+            <span className="inline-flex items-center justify-center w-8 h-8 ml-2 text-xl font-semibold text-blue-800 bg-blue-200 rounded-full">
               0
             </span>
           </button>
