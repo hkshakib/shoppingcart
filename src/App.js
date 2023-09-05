@@ -1,5 +1,12 @@
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
 function App() {
-  return <div className="text-3xl text-red-600">hello world</div>;
+  return (
+    <div className="flex flex-col">
+      <Navbar />
+      <Home />
+    </div>
+  );
 }
 
 export default App;
