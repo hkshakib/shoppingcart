@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 const Home = () => {
+  const [data, setData] =  useState("");
+
   return <div>Home</div>;
 };
 
